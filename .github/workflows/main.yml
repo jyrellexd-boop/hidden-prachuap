@@ -23,8 +23,12 @@ jobs:
         run: npm run build
         working-directory: ./hidden-prachuap-local/project
 
+      - name: Copy images to dist
+        run: cp -r ./hidden-prachuap-local/project/public/images ./hidden-prachuap-local/project/dist/images
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./hidden-prachuap-local/project/dist
+          keep_files: false
