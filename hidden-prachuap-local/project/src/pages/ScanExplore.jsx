@@ -2,8 +2,8 @@
 import { motion } from 'framer-motion';
 import { QrCode, Smartphone, MapPin, MessageSquare } from 'lucide-react';
 
-const QR_IMAGE = '/images/scan-qr.png';
-const PANORAMA = '/images/scan-panorama.png';
+const QR_IMAGE = './images/scan-qr.png';
+const PANORAMA = './images/scan-panorama.png';
 
 const steps = [
   { icon: Smartphone, title: 'Step 1: Open Camera', desc: 'Open your smartphone camera or any QR scanner app.' },

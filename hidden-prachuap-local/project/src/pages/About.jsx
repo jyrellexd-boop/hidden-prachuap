@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { QrCode, Globe, MapPin, Smartphone } from 'lucide-react';
 
-const ABOUT_IMAGE = '/images/about.png';
+const ABOUT_IMAGE = './images/about.png';
 
 const features = [
   {

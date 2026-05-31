@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
-const HERO_IMAGE = '/images/hero.png';
+const HERO_IMAGE = './images/hero.png';
 
 export default function HeroSection() {
   return (
