@@ -5,7 +5,7 @@ import path from 'path'
 // Replace 'hidden-prachuap' with your actual GitHub repo name if different
 export default defineConfig({
   plugins: [react()],
-  base: '/hidden-prachuap-github/',
+  base: '/hidden-prachuap/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
