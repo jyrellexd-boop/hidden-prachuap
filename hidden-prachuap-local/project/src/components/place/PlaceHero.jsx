@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function PlaceHero({ place }) {
+  const navigate = useNavigate();
+
   return (
     <section className="relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
@@ -12,16 +14,16 @@ export default function PlaceHero({ place }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/30" />
 
-      {/* Back button — fixed top left, won't overlap title */}
-      <Link
-        to="/"
+      {/* Back button — fixed, uses browser history so scroll position is preserved */}
+      <button
+        onClick={() => navigate(-1)}
         className="fixed top-4 left-4 z-50 flex items-center gap-2 text-white hover:text-white/80 transition-colors bg-black/50 backdrop-blur-md px-3 py-1.5 rounded-full text-sm font-medium shadow-lg"
       >
         <ArrowLeft className="w-4 h-4" />
         Back
-      </Link>
+      </button>
 
-      {/* Title — pushed down enough to not overlap back button */}
+      {/* Title */}
       <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
