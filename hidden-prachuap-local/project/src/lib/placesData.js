@@ -48,7 +48,7 @@ export const places = [
   },
   {
     id: 'mangrove-trail',
-    name: 'Thung Sam Roi Yot Mangrove Trail',
+    name: 'Sam Roi Yot National Park',
     tag: 'Nature',
     preview: 'A serene elevated boardwalk winding through lush mangrove forests and pristine wetland ecosystems.',
     description: 'The Thung Sam Roi Yot Mangrove and Wetland Nature Trail offers an immersive experience into one of Thailand\'s most pristine coastal ecosystems. Located within the Sam Roi Yot National Park area, this elevated boardwalk winds through dense mangrove forests, passing over tranquil waterways teeming with marine life. The trail provides an educational journey through the vital mangrove ecosystem, which serves as a nursery for countless marine species and a natural buffer against coastal erosion.',
@@ -66,7 +66,7 @@ export const places = [
       'Peaceful and shaded trail — ideal for morning walks',
       'Photography paradise with unique reflections and textures',
     ],
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=12.503109269946705,99.96305755045805&travelmode=driving',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=12.128612497506504,99.95373935814023&travelmode=driving',
     coords: { lat: 12.503109269946705, lng: 99.96305755045805 },
   },
   {
