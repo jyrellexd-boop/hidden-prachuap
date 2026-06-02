@@ -12,10 +12,10 @@ export default function PlaceHero({ place }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/30" />
 
-      {/* Back button */}
+      {/* Back button — fixed so always visible */}
       <Link
         to="/"
-        className="absolute top-20 left-6 md:left-10 z-10 flex items-center gap-2 text-white/80 hover:text-white transition-colors bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm font-medium"
+        className="fixed top-4 left-4 md:left-8 z-50 flex items-center gap-2 text-white/90 hover:text-white transition-colors bg-black/40 backdrop-blur-md px-4 py-2 rounded-full text-sm font-medium shadow-lg"
       >
         <ArrowLeft className="w-4 h-4" />
         Back
