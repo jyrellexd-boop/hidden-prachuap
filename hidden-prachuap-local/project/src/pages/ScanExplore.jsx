@@ -7,7 +7,7 @@ const PANORAMA = './images/scan-panorama.png';
 
 const steps = [
   { icon: Smartphone, title: 'Step 1: Open Camera', desc: 'Open your smartphone camera or any QR scanner app.' },
-  { icon: QrCode, title: 'Step 2: Scan the Code', desc: 'Point your camera at any Hidden Prachuap QR code.' },
+  { icon: QrCode, title: 'Step 2: Scan the Code', desc: 'Point your camera at any Heart of Prachuap QR code.' },
   { icon: MapPin, title: 'Step 3: Explore & Navigate', desc: 'Browse destination info and get directions instantly.' },
   { icon: MessageSquare, title: 'Step 4: Share Your Experience', desc: 'Leave a review to help other travelers.' },
 ];
@@ -55,7 +55,7 @@ export default function ScanExplore() {
             <div className="w-56 h-56 md:w-72 md:h-72 rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl relative z-10 bg-white p-4">
               <img
                 src={QR_IMAGE}
-                alt="Hidden Prachuap QR Code - scan to explore tourist destinations"
+                alt="Heart of Prachuap QR Code - scan to explore tourist destinations"
                 className="w-full h-full object-contain"
               />
             </div>
@@ -71,7 +71,7 @@ export default function ScanExplore() {
               Scan to Start Exploring
             </h2>
             <p className="text-muted-foreground text-lg mt-4 max-w-md mx-auto leading-relaxed">
-              Point your smartphone camera at the QR location to access the Hidden Prachuap 
+              Point your smartphone camera at the QR location to access the Heart of Prachuap 
               digital tourism guide instantly.
             </p>
           </motion.div>
@@ -110,13 +110,13 @@ export default function ScanExplore() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-heading font-bold text-2xl md:text-3xl">Project Information</h2>
           <p className="text-muted-foreground text-lg mt-4 leading-relaxed max-w-2xl mx-auto">
-            Hidden Prachuap is a tourism technology project designed to enhance the visitor experience 
+            Heart of Prachuap is a tourism technology project designed to enhance the visitor experience 
             in Prachuap Khiri Khan, Thailand. Through strategically placed QR codes, tourists gain 
             instant access to curated destination information, photo galleries, and smart navigation 
             — making every journey seamless and memorable.
           </p>
           <div className="mt-8 text-sm text-muted-foreground">
-            <p>Contact: info@hiddenprachuap.com</p>
+            <p>Contact: info@heartofprachuap.com</p>
             <p className="mt-1">Prachuap Khiri Khan, Thailand</p>
           </div>
         </div>

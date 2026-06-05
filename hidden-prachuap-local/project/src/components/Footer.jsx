@@ -12,10 +12,10 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <Compass className="w-4.5 h-4.5 text-primary-foreground" />
               </div>
-              <span className="font-heading font-bold text-lg">Hidden Prachuap</span>
+              <span className="font-heading font-bold text-lg">Heart of Prachuap</span>
             </div>
             <p className="text-background/60 text-sm leading-relaxed">
-              Exploring the Hidden Gems of Hua Hin Through QR Technology. Discover, navigate, and experience the beauty of Prachuap Khiri Khan.
+              Exploring Tourism through QR Technology. Discover, navigate, and experience the beauty of Prachuap Khiri Khan.
             </p>
           </div>
 
@@ -39,14 +39,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2 text-sm text-background/60">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>info@hiddenprachuap.com</span>
+                <span>info@heartofprachuap.com</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-sm text-background/40">
-          © {new Date().getFullYear()} Hidden Prachuap. All rights reserved.
+          © {new Date().getFullYear()} Heart of Prachuap. All rights reserved.
         </div>
       </div>
     </footer>

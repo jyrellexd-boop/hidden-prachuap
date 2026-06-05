@@ -61,7 +61,7 @@ export default function About() {
             Promoting Tourism Through Digital Innovation
           </h2>
           <p className="text-muted-foreground text-lg mt-6 leading-relaxed">
-            Hidden Prachuap is a digital tourism initiative that promotes tourism awareness and 
+            Heart of Prachuap is a digital tourism initiative that promotes tourism awareness and 
             accessibility in Prachuap Khiri Khan through QR technology and digital tourism information. 
             Our goal is to bridge the gap between physical tourist destinations and the digital world, 
             making it easier for travelers to discover, learn about, and navigate to the hidden gems 
