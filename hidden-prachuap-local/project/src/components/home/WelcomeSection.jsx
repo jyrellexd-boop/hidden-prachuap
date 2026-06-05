@@ -23,8 +23,8 @@ export default function WelcomeSection() {
             Your Digital Guide to Prachuap Khiri Khan
           </h2>
           <p className="text-muted-foreground text-lg mt-6 leading-relaxed">
-            Heart of Prachuap helps tourists discover the most captivating attractions in Hua Hin 
-            and Prachuap Khiri Khan through digital information and navigation. Simply scan, explore, 
+            Heart of Prachuap helps tourists discover the most captivating attractions in Prachuap
+            Khiri Khan through digital information and navigation. Simply scan, explore, 
             and let us guide you to unforgettable experiences.
           </p>
         </motion.div>
