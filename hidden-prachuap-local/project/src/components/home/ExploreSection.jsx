@@ -18,7 +18,7 @@ export default function ExploreSection() {
             Explore Places
           </h2>
           <p className="text-muted-foreground text-lg mt-4 max-w-lg mx-auto">
-            Discover the most enchanting attractions that Hua Hin and Prachuap Khiri Khan have to offer.
+            Discover the most enchanting attractions that Prachuap Khiri Khan have to offer.
           </p>
         </motion.div>
 
