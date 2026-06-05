@@ -30,11 +30,11 @@ export default function HeroSection() {
           </div>
           
           <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05] max-w-4xl">
-            Hidden<br />Prachuap
+            Heart of<br />Prachuap
           </h1>
           
           <p className="text-white/80 text-lg md:text-xl mt-6 max-w-lg leading-relaxed font-light">
-            Exploring the Hidden Gems of Hua Hin Through QR Technology
+            Exploring Tourism through QR Technology
           </p>
         </motion.div>
 
