@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <Compass className="w-4.5 h-4.5 text-primary-foreground" />
             </div>
-            <span className="font-heading font-bold text-lg tracking-tight">Hidden Prachuap</span>
+            <span className="font-heading font-bold text-lg tracking-tight">Heart of Prachuap</span>
           </Link>
 
           {/* Desktop nav */}
